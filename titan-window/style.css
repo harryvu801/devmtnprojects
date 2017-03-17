@@ -1,0 +1,33 @@
+.wrapper {
+	height:100vh;
+	width: 100vw;
+	background: url("https://images.unsplash.com/photo-1489347215392-cee3b4f539aa?dpr=1&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=");
+	background-position: center;
+	background-size: cover;
+}
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 28px;
+    background-color: #ccc;
+    height:65px;
+}
+.logo {
+    width:200px;
+    height:65px;
+    background: lightskyblue;
+}
+.contact-container {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    color: rgba(0,0,0,0.6);
+}
+@media(min-width: 750px) {
+    .main-header{
+        height: 100px;
+    }
+    .logo {
+        height:100px;
+    }
+}

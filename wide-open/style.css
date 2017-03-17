@@ -1,0 +1,74 @@
+.header-section {
+	height:100vh;
+	width:100%;
+	background-image: url("https://slack-imgs.com/?c=1&url=http%3A%2F%2Fcdn01.wideopentech.com%2Fthemes%2Fwot-2013-gm%2F_%2Fimg%2Fwot-masthead-dark.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.header {
+	padding:30px ;
+	display:flex;
+	height: 72px;
+	width: 100%;
+	background-color: white;
+	align-items: center;
+}
+
+.logo {
+	margin-left: 20px;
+	max-height: 255%;
+	max-width: 255%;
+}
+
+.title-block {
+	height: 400px;
+	width: 100%;
+	padding: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	font-family: "oswald";
+	color:white;
+}
+
+.title-intro {
+	height: 10px;
+	width: 100%;
+	margin: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+.title {
+	height: 120px;
+	width: 85%;
+	text-align: center;
+	font-size: 18vw;
+	
+}
+
+.slogan-line {
+	height: 20px;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.white-dash {
+	height:8px;
+	width: 50px;
+	background: white;
+}
+
+.slogan {
+	font-family: "oswald";
+	display: flex;
+	font-size: 20px;
+	color:white;
+}
