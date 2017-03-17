@@ -2,7 +2,7 @@
 	height:300px;
 	width:100%;
 	background-image: url("https://slack-imgs.com/?c=1&url=http%3A%2F%2Fcdn01.wideopentech.com%2Fthemes%2Fwot-2013-gm%2F_%2Fimg%2Fwot-masthead-dark.jpg");
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
