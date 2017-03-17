@@ -1,5 +1,5 @@
 .header-section {
-	height:100vh;
+	height:300px;
 	width:100%;
 	background-image: url("https://slack-imgs.com/?c=1&url=http%3A%2F%2Fcdn01.wideopentech.com%2Fthemes%2Fwot-2013-gm%2F_%2Fimg%2Fwot-masthead-dark.jpg");
 	background-size: contain;
@@ -22,7 +22,7 @@
 }
 
 .title-block {
-	height: 400px;
+	height:100%;
 	width: 100%;
 	padding: 30px;
 	display: flex;
@@ -44,7 +44,7 @@
 }
 
 .title {
-	height: 120px;
+	height: 15vh;
 	width: 85%;
 	text-align: center;
 	font-size: 18vw;
