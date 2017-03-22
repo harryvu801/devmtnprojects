@@ -1,0 +1,56 @@
+.background {
+	height: 100vh;
+	width: 100%;
+	background-image: url("./img/main-bg.jpeg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.header {
+	height: 60px;
+	width: 100%;
+	padding-right: 12vw;
+	padding-left: 12vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	font-family: 'Baloo Bhaina', cursive;
+	font-size: 40px;
+	color:white;
+}
+
+.main-section {
+	height:100%;
+	display:flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	font-family: 'Baloo Bhaina', cursive;
+	color: white;
+
+}
+
+.big-word {
+	display:flex;
+	justify-content: center;
+	height: 90px;
+	width: 100%;
+	font-size: 120px;
+}
+
+.smaller-words {
+	display: flex;
+	justify-content: center;
+	height: 60px;
+	width: 100%;
+	font-size: 35px;
+}
+
+.button {
+	height: 43px;
+	width: 43px;
+	border-radius: 50%;
+	border: none;
+	background-color: white;
+	align-self: flex-end;
+}
