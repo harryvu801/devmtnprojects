@@ -210,11 +210,9 @@ var allUsers = ["Tom", "Dick", "Harry", "Anne", "Quinton", "Katie", "Mary"];
 
 function findPotentialFriends(existingFriends) {
   return function(frn) {
-    for (var i =0; i<friends.length;i++) {
       if (friends.indexOf(frn) > -1) {
         return false;
       }
-    }
     return true;
   }
 }
